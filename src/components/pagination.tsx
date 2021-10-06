@@ -3,7 +3,7 @@ import Pokemons from "../container/pokemons";
 import "./pagination.css";
 import { Guid } from "guid-typescript";
 import Modal from "./modal/Modal";
-import { CAUGHT_POKEMONS, POKEMONS_URL } from "../constants/const";
+import { CAUGHT_POKEMONS, POKEMONS_URL } from "../utils/const";
 import { Search, Status, ReducerAction } from "../typings/type"
 
 const Pagination = () => {

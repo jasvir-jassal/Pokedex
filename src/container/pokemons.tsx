@@ -4,7 +4,7 @@ import captured from "../public/images/captured.png";
 import noCaptured from "../public/images/noCaptured.png";
 import { Link } from "react-router-dom";
 import { typesColors } from "../utils/typeColor";
-import { CAUGHT_POKEMONS } from "../constants/const";
+import { CAUGHT_POKEMONS } from "../utils/const";
 import { PokemonsProps, Pokemon } from "../typings/type"
 
 const Pokemons: React.FC<PokemonsProps> = (props) => {

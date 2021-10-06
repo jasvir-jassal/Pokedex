@@ -1,7 +1,7 @@
 import React from "react";
 import "./modal.css";
 import { Guid } from "guid-typescript";
-import { CAUGHT_POKEMONS } from "../../constants/const";
+import { CAUGHT_POKEMONS } from "../../utils/const";
 import { ModalProps } from "../../typings/type";
 
 

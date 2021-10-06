@@ -4,7 +4,7 @@ import "./pokemon.css";
 import captured from "../../public/images/captured.png";
 import noCaptured from "../../public/images/noCaptured.png";
 import { typesColors } from "../../utils/typeColor";
-import { POKEMON_URL, POKEMON_DESCRIPTION_URL, CAUGHT_POKEMONS } from "../../constants/const";
+import { POKEMON_URL, POKEMON_DESCRIPTION_URL, CAUGHT_POKEMONS } from "../../utils/const";
 import { PokemonDetailProps } from "../../typings/type";
 
 const Pokemon = () => {
