@@ -1,0 +1,70 @@
+.body {
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.582);
+    overflow: hidden!important;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 70%;
+    height: auto;
+    max-height: 70%;
+    border: none;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.list{
+    padding: 20px;
+    display: block;
+    overflow-y: scroll;
+}
+
+.item-list{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    padding: 5px;
+    border-bottom: solid 0.5px;
+    border-color: rgb(202, 202, 202);
+}
+
+.close{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.close-modal{
+    display: flex;
+    justify-items: flex-end;
+    align-items: flex-end;
+    background-color: rgb(165, 5, 5);
+    color: #fff;
+    font-size: 20px;
+    border:none;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+    margin-right: 10px ;
+    cursor: pointer;
+}
+
+.close-modal:hover{
+    background-color: rgb(202, 6, 6);
+}
+
+.list-pokemons-label{
+    font-size: 40px;
+    font-weight: 600;
+}
